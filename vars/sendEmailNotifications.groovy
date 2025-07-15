@@ -1,4 +1,4 @@
-def call(String emailSubject, String emailBody, Sting recipients) {
+def call(String emailSubject, String emailBody, String recipients) {
         emailext(
             subject: emailSubject,
             body: emailBody,
